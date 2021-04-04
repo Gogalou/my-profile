@@ -1,0 +1,209 @@
+/* Colors and fonts */
+body {
+
+	background-color: #447080;
+    color: rgb(218, 218, 218);
+	font-family: 'Varela Round', sans-serif;
+	font-size: 16px; 
+
+}
+
+h1, h2, h3 {
+
+	font-family: 'Permanent Marker', cursive;
+	
+}
+
+h1, h2 {
+
+	color: white;
+
+}
+
+h1 {
+
+	text-align: center;
+	font-weight: bolder;
+	font-size: 30px;
+	color: white;
+	text-shadow: 4px 5px 6px rgb(0 0 0 / 10%);
+
+}
+
+h2 {
+
+	font-size: 25px;
+
+}
+
+
+
+a {
+
+	text-decoration: none;
+	font-weight: bolder;
+	color: #084C61
+
+}
+
+.link-transition:hover {
+	color: black;
+
+}
+
+#link-transition {
+	transition: 0.8s;
+
+
+}
+
+
+/* Custom design */
+
+.img-width {
+
+	width: 90px;
+	
+}
+
+.img-circled {
+
+	border-radius: 30%;
+
+}
+
+
+.container {
+	width: 300px
+	margin: 10px auto;
+
+}
+
+@media (max-width: 1080px) {
+	.container {
+
+	 width: 900px; 
+	 margin: 10px auto;
+
+
+      
+}
+
+}
+
+@media (max-width: 720px) {
+	.container {
+
+	 width: 600px; 
+	 margin: 10px auto;
+
+
+      
+}
+
+}
+
+@media (max-width: 500px) {
+	.container {
+
+	 width: 400px;
+	 margin: 10px auto;
+ 
+
+      
+}
+
+}
+
+@media (max-width: 300px) {
+	.container {
+
+	 width: 250px; 
+	 margin: 10px auto;
+
+
+      
+}
+
+}
+
+.div-format  {
+
+	background-color: #5C9EAD;
+    padding: 50px;
+    padding-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 5px rgb(0 0 0 / 20%);
+    margin: 30px;
+
+
+}
+
+.div-centered {
+
+	text-align: center;
+
+}
+
+.btn-color {
+
+text-align: center;
+color: white;
+background-color: #084C61;
+padding: 5px 15px;
+border-radius: 5px;
+box-shadow: 3px 3px 5px rgb(0 0 0 / 20%);
+
+}
+
+.btn-color:hover {
+
+	background-color: black;
+	
+}
+
+#img-bottomspace {
+	margin-bottom: 12.5px;
+
+
+
+} 
+
+#paragraph-bottomspace {
+	margin-bottom: 40px;
+
+
+
+} 
+
+#header-bottomspace {
+	margin-bottom: 60px;
+
+
+
+
+}
+
+.list-inline {
+
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-inline li {
+
+	display: inline;
+	padding: 35px;
+
+}
+
+.list-inline i {
+
+	font-size: 40px;
+
+
+} 
+
+
+
